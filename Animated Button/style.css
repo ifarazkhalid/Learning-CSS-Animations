@@ -1,0 +1,35 @@
+body {
+	background-color: #646682;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+.btn {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color: white;
+	background-color: #5292f9;
+	padding: 25px 80px;
+	border-radius: 20px;
+	box-shadow: 0px 6px #394d6d;
+	margin: 0 auto;
+	font-family: 'Bungee', cursive;
+}
+
+.btn:hover{
+	box-shadow: 0px 4px #394d6d;
+	top: 2px;
+}
+
+.btn:active {
+	box-shadow: none;
+	top: 6px;
+}
