@@ -1,0 +1,33 @@
+p {
+	animation-name: animatedText;
+	animation-duration: 3s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes animatedText {
+	0% {
+		color: black;
+		font-size: 20px;
+	}
+
+	25% {
+		color: red;
+	}
+
+	50% {
+		color: orange;
+		font-size: 40px;
+	}
+
+	75% {
+		color: red;
+	}
+
+	100% {
+		color: green;
+		font-size: 20px;
+	}
+}
